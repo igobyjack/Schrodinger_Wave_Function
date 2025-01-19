@@ -44,6 +44,7 @@ ax.plot(x, 1/100* V, label="Potential V", color="green")
 
 ani = animate_complex_matrix(psi_t, x, ax=ax)
 
-plt.show()
+#show plot
+# plt.show()
 
-ani.save("test.gif")
+ani.save("wavefunction.gif")
